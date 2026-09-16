@@ -11,8 +11,8 @@ answer too early:
 
 1. **Signed evidence graph construction** — each report is distilled into a
    structured behavior profile; deterministic matching over canonical keys
-   turns support and conflict relations among reports into graph edges, and
-   spectral partitioning carves out competing hypotheses aligned with the
+   turns the support and conflict relations among reports into graph edges,
+   and spectral partitioning carves out competing hypotheses aligned with the
    query.
 2. **Adaptive scheduling** — a frustration-index-driven gate decides the
    reasoning depth: with no conflict a consensus conclusion is returned
@@ -32,11 +32,12 @@ signed evidence graph.
 ├── src/                  # SCHISM implementation
 │   ├── core/             # signed graph, spectral partition, conflict,
 │   │                     # canonical matching, ABP, transitivity
-│   ├── agents/           # orchestrator + 3 LLM agents and their prompts
+│   ├── agents/           # orchestrator + LLM agents and their prompts
 │   ├── tasks/            # task adapters (TAA / RCM / ATE / MCQ)
 │   ├── retrieval/        # hybrid retriever over the CTI corpus
 │   ├── utils/            # LLM client (vLLM OpenAI-compatible), settings
 │   ├── controller.py     # deterministic orchestration loop
+│   ├── metrics.py        # deterministic metrics (conflict level, gates)
 │   └── run.py            # main entry point
 ├── baselines/            # compared methods: ArbGraph, CyberRAG,
 │                         # ITER-RETGEN, NaiveRAG, RAGIntel, Search-o1
@@ -48,6 +49,44 @@ signed evidence graph.
 │                         # Mistral-7B)
 └── data/                 # CTIBench task sets and the CTI report corpus
 ```
+
+## Code structure
+
+- `src/controller.py` — the deterministic orchestrator: pipeline staging,
+  conflict gating, iteration, and the refutation chain; no LLM calls.
+- `src/agents/` — the LLM agents (`hypothesis_agent`, `evidence_graph_agent`,
+  `reporter_agent`) plus prompt templates in `src/agents/prompts/` (YAML).
+  Prompts default to the TAA wording in the root directory; the `ate/`,
+  `mcq/`, and `rcm/` subdirectories hold per-task overrides, loaded with a
+  fallback to the default (`get_task_prompt` in `src/utils/settings.py`).
+- `src/core/` — the deterministic core: `awm.py` (AWM data structures,
+  `GraphEdge` with three edge classes, `BehaviorProfile` with canonical
+  keys), `abp.py` (behavior profile extraction), `canonical_match.py`
+  (four-dimension canonical-key matching that decides support / conflict /
+  undecidable), `signed_graph.py`, `spectral_partition.py` (signed Laplacian,
+  eigengap, k-means), `conflict.py` and `transitivity.py` (frustration index
+  and edge-sign inference).
+- `src/tasks/` — task adapters over a common `TaskAdapter` base
+  (`taa.py`, `mcq.py`, `rcm.py`, `ate.py`).
+- `src/retrieval/` — the Weaviate retriever, hybrid semantic + BM25 search
+  with RRF fusion.
+- `src/utils/llm_client.py` — LLM calls through a vLLM OpenAI-compatible
+  endpoint, with automatic truncation that guards against context overflow.
+
+## Configuration
+
+All shared settings live in `src/settings.yaml`:
+
+| Key | Default | Meaning |
+|---|---|---|
+| `global.top_k` | 10 | retrieval size, unified across our method and all baselines |
+| `global.retrieval_mode` | hybrid | `semantic` / `keyword` / `hybrid` |
+| `global.hybrid_alpha` | 0.4 | semantic weight in RRF fusion |
+| `global.timeout` | 1800 | per-sample timeout (s), unified across methods |
+
+Pipeline-specific parameters (gates $\theta_1$, $\theta_2$, per-task
+$I_{\max}$, hypothesis-strength blending, counterexample pool size) are
+documented inline in the `pipeline:` section of the same file.
 
 ## Setup
 
@@ -62,15 +101,36 @@ signed evidence graph.
 pip install -r requirements.txt
 ```
 
-3. Run one task (TAA here; RCM/ATE/MCQ analogous):
+## Running experiments
+
+Task datasets: TAA 50 samples, ATE 60, RCM 1000, MCQ 2500. All task runners
+share the same flags: `--start/--end` (sample range, for debugging),
+`--resume` (checkpoint restart), `--timeout` (per-sample seconds).
+
+Our method:
 
 ```bash
-python -m src.run --task taa
+python experiments/run_taa.py                     # full TAA run (50)
+python experiments/run_mcq.py                     # full MCQ run (2500, lighter defaults)
+python experiments/run_rcm.py                     # full RCM run (1000)
+python experiments/run_ate.py                     # full ATE run (60)
+python experiments/run_taa.py --start 0 --end 3   # debug a few samples
+python experiments/run_taa.py --resume            # resume from checkpoint
 ```
 
-Baselines are run through `experiments/run_taa_baselines.py` and
-`experiments/run_mcq_baselines.py`; `experiments/run_matrix.sh` /
-`experiments/run_backbones.sh` show the full experiment matrix.
+Baselines (TAA and MCQ use dedicated runners; RCM and ATE switch to
+`--mode baseline`):
+
+```bash
+python experiments/run_taa_baselines.py --method naive_rag
+python experiments/run_mcq_baselines.py --method all
+python experiments/run_rcm.py --mode baseline --method search_o1
+python experiments/run_ate.py --mode baseline --method arbgraph
+# methods: naive_rag | iter_retgen | search_o1 | cyberrag | rag_intel | arbgraph | all
+```
+
+`experiments/run_matrix.sh` and `experiments/run_backbones.sh` show the full
+backbone-by-task matrix used for the paper.
 
 ## Results
 
@@ -90,4 +150,5 @@ per-sample outputs (`*_results.json`) and the aggregated metrics
   [RedDrip7/APT_Digital_Weapon](https://github.com/RedDrip7/APT_Digital_Weapon),
   and
   [CyberMonitor/APT_CyberCriminal_Campagin_Collections](https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections).
-  The reports are converted to plain text and sectioned for retrieval.
+  The original reports (PDF and web pages) are converted to plain text with
+  DeepSeek-OCR and sectioned for retrieval.
