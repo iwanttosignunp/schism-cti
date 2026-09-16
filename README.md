@@ -52,7 +52,10 @@ signed evidence graph.
 ## Setup
 
 1. Serve a backbone LLM behind an OpenAI-compatible endpoint (e.g. vLLM) and
-   point `src/settings.yaml` → `models.chat_model.api_base` at it.
+   point `src/settings.yaml` → `models.chat_model.api_base` at it, and serve
+   the retrieval corpus in Weaviate (`models.weaviate_model.url`, class
+   `APT` with fields `content`, `report_title`, `section_title`,
+   `source_file`).
 2. Install dependencies:
 
 ```bash
@@ -76,3 +79,15 @@ per-sample outputs (`*_results.json`) and the aggregated metrics
 (`*_results_report.json`) used in the paper. Backbones shipped here:
 `qwen3-30b-a3b` (Qwen3-30B-A3B), `glm-9b` (GLM-4-9B), and `mistral`
 (Mistral-7B).
+
+## Data sources
+
+- The task sets (TAA/ATE/MCQ/RCM) come from the
+  [CTIBench](https://github.com/IBM/CTIBench) benchmark.
+- The retrieval corpus aggregates publicly available APT reports from three
+  community-maintained GitHub collections:
+  [blackorbird/APT_REPORT](https://github.com/blackorbird/APT_REPORT),
+  [RedDrip7/APT_Digital_Weapon](https://github.com/RedDrip7/APT_Digital_Weapon),
+  and
+  [CyberMonitor/APT_CyberCriminal_Campagin_Collections](https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections).
+  The reports are converted to plain text and sectioned for retrieval.
