@@ -1,0 +1,12 @@
+# Core dependencies for the SCHISM pipeline (src/)
+openai
+pyyaml
+numpy
+scikit-learn
+weaviate-client
+langchain-huggingface
+tqdm
+
+# Baseline methods under baselines/ may require additional packages
+# (langchain, langchain-community, transformers, torch, etc.) depending on
+# which baseline is run; see each baseline directory.

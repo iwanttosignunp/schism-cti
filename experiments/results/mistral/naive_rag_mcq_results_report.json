@@ -1,0 +1,7 @@
+{
+  "method": "naive_rag",
+  "accuracy": 49.2,
+  "correct": 1230,
+  "total": 2500,
+  "num_failed": 0
+}

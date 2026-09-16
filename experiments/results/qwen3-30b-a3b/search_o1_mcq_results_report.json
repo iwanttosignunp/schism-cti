@@ -1,0 +1,7 @@
+{
+  "method": "search_o1",
+  "accuracy": 60.4,
+  "correct": 1510,
+  "total": 2500,
+  "num_failed": 0
+}

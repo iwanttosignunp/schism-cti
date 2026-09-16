@@ -1,0 +1,16 @@
+{
+  "setting": "r4",
+  "ablation": null,
+  "defense": "on",
+  "n": 50,
+  "correct_acc": 26.0,
+  "plausible_acc": 52.0,
+  "framed": 17,
+  "poison_chunks": 119,
+  "hit_queries": 32,
+  "flagged": 119,
+  "adjudicated": 119,
+  "quarantined": 59,
+  "avg_time_sec": 85.6,
+  "avg_llm_calls": 25.5
+}

@@ -1,0 +1,7 @@
+{
+  "method": "cyberrag",
+  "accuracy": 65.36,
+  "correct": 1634,
+  "total": 2500,
+  "num_failed": 0
+}

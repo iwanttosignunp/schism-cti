@@ -1,0 +1,402 @@
+[
+  {
+    "index": 0,
+    "prediction": "Transparent Tribe",
+    "elapsed_sec": 27.8,
+    "status": "ok",
+    "ground_truth": "SideCopy",
+    "url": "https://www.seqrite.com/blog/sidecopys-multi-platform-onslaught-leveraging-winrar-zero-day-and-linux-variant-of-ares-rat/"
+  },
+  {
+    "index": 1,
+    "prediction": "Stately Taurus",
+    "elapsed_sec": 29.0,
+    "status": "ok",
+    "ground_truth": "MUSTANG PANDA",
+    "url": "https://csirt-cti.net/2024/01/23/stately-taurus-targets-myanmar/"
+  },
+  {
+    "index": 2,
+    "prediction": "APT10",
+    "elapsed_sec": 35.7,
+    "status": "ok",
+    "ground_truth": "MUSTANG PANDA",
+    "url": "https://unit42.paloaltonetworks.com/stately-taurus-attacks-se-asian-government/"
+  },
+  {
+    "index": 3,
+    "prediction": "APT29",
+    "elapsed_sec": 29.9,
+    "status": "ok",
+    "ground_truth": "MUMMY SPIDER",
+    "url": "https://medium.com/@zyadlzyatsoc/comprehensive-analysis-of-emotet-malware-part-1-by-zyad-elzyat-35d5cf33a3c0"
+  },
+  {
+    "index": 4,
+    "prediction": "APT30",
+    "elapsed_sec": 28.8,
+    "status": "ok",
+    "ground_truth": "Dark Caracal",
+    "url": "https://www.fortinet.com/blog/threat-research/bandook-persistent-threat-that-keeps-evolving"
+  },
+  {
+    "index": 5,
+    "prediction": "Sharp Panda",
+    "elapsed_sec": 27.4,
+    "status": "ok",
+    "ground_truth": "APT19",
+    "url": "https://research.checkpoint.com/2024/sharp-dragon-expands-towards-africa-and-the-caribbean/"
+  },
+  {
+    "index": 6,
+    "prediction": "Storm-0303",
+    "elapsed_sec": 28.3,
+    "status": "ok",
+    "ground_truth": "APT19",
+    "url": "https://www.microsoft.com/en-us/security/blog/2024/05/15/threat-actors-misusing-quick-assist-in-social-engineering-attacks-leading-to-ransomware/"
+  },
+  {
+    "index": 7,
+    "prediction": "Blind Eagle",
+    "elapsed_sec": 29.9,
+    "status": "ok",
+    "ground_truth": "APT-C-36",
+    "url": "https://blogs.blackberry.com/en/2023/02/blind-eagle-apt-c-36-targets-colombia"
+  },
+  {
+    "index": 8,
+    "prediction": "BlindEagle",
+    "elapsed_sec": 39.4,
+    "status": "ok",
+    "ground_truth": "APT-C-36",
+    "url": "https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools/"
+  },
+  {
+    "index": 9,
+    "prediction": "UNC4210",
+    "elapsed_sec": 28.0,
+    "status": "ok",
+    "ground_truth": "Turla",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/turla-galaxy-opportunity/"
+  },
+  {
+    "index": 10,
+    "prediction": "Turla / Venomous Bear",
+    "elapsed_sec": 26.1,
+    "status": "ok",
+    "ground_truth": "Turla",
+    "url": "https://www.telsy.com/en/turla-venomous-bear-updates-its-arsenal-newpass-appears-on-the-apt-threat-scene/"
+  },
+  {
+    "index": 11,
+    "prediction": "APT28",
+    "elapsed_sec": 27.0,
+    "status": "ok",
+    "ground_truth": "APT28",
+    "url": "https://cert.gov.ua/article/6276894"
+  },
+  {
+    "index": 12,
+    "prediction": "FIN8",
+    "elapsed_sec": 24.2,
+    "status": "ok",
+    "ground_truth": "APT28",
+    "url": "https://cert.gov.ua/article/4492467"
+  },
+  {
+    "index": 13,
+    "prediction": "APT29",
+    "elapsed_sec": 30.2,
+    "status": "ok",
+    "ground_truth": "UNC2452",
+    "url": "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/"
+  },
+  {
+    "index": 14,
+    "prediction": "NetSupport",
+    "elapsed_sec": 31.8,
+    "status": "ok",
+    "ground_truth": "UNC2452",
+    "url": "https://www.rapid7.com/blog/post/2024/05/10/ongoing-social-engineering-campaign-linked-to-black-basta-ransomware-operators/"
+  },
+  {
+    "index": 15,
+    "prediction": "OilRig",
+    "elapsed_sec": 37.1,
+    "status": "ok",
+    "ground_truth": "CHRYSENE",
+    "url": "https://www.welivesecurity.com/en/eset-research/oilrigs-outer-space-juicy-mix-same-ol-rig-new-drill-pipes/"
+  },
+  {
+    "index": 16,
+    "prediction": "TURLA",
+    "elapsed_sec": 29.0,
+    "status": "ok",
+    "ground_truth": "CHRYSENE",
+    "url": "https://www.trendmicro.com/en_us/research/23/b/new-apt34-malware-targets-the-middle-east.html"
+  },
+  {
+    "index": 17,
+    "prediction": "Deep Panda",
+    "elapsed_sec": 27.1,
+    "status": "ok",
+    "ground_truth": "APT41",
+    "url": "https://www.trendmicro.com/en_us/research/24/d/earth-freybug.html"
+  },
+  {
+    "index": 18,
+    "prediction": "MuddyWater",
+    "elapsed_sec": 31.4,
+    "status": "ok",
+    "ground_truth": "lazarus",
+    "url": "https://blog.talosintelligence.com/lazarus_new_rats_dlang_and_telegram/"
+  },
+  {
+    "index": 19,
+    "prediction": "DarkSeoul",
+    "elapsed_sec": 30.2,
+    "status": "ok",
+    "ground_truth": "Kimsuky",
+    "url": "https://symantec-enterprise-blogs.security.com/threat-intelligence/springtail-kimsuky-backdoor-espionage"
+  },
+  {
+    "index": 20,
+    "prediction": "DRBControl",
+    "elapsed_sec": 32.6,
+    "status": "ok",
+    "ground_truth": "Kimsuky",
+    "url": "https://www.securonix.com/blog/securonix-threat-research-security-advisory-new-deepgosu-attack-campaign/"
+  },
+  {
+    "index": 21,
+    "prediction": "SideCopy",
+    "elapsed_sec": 34.6,
+    "status": "ok",
+    "ground_truth": "APT36",
+    "url": "https://www.seqrite.com/blog/pakistani-apts-escalate-attacks-on-indian-gov-seqrite-labs-unveils-threats-and-connections/"
+  },
+  {
+    "index": 22,
+    "prediction": "Russian GRU",
+    "elapsed_sec": 27.8,
+    "status": "ok",
+    "ground_truth": "APT35",
+    "url": "https://www.microsoft.com/en-us/security/blog/2024/01/17/new-ttps-observed-in-mint-sandstorm-campaign-targeting-high-profile-individuals-at-universities-and-research-orgs/"
+  },
+  {
+    "index": 23,
+    "prediction": "Iranian Threat Actors",
+    "elapsed_sec": 30.6,
+    "status": "ok",
+    "ground_truth": "MuddyWater",
+    "url": "https://www.deepinstinct.com/blog/darkbeatc2-the-latest-muddywater-attack-framework"
+  },
+  {
+    "index": 24,
+    "prediction": "Seedworm",
+    "elapsed_sec": 32.6,
+    "status": "ok",
+    "ground_truth": "MuddyWater",
+    "url": "https://symantec-enterprise-blogs.security.com/threat-intelligence/iran-apt-seedworm-africa-telecoms"
+  },
+  {
+    "index": 25,
+    "prediction": "Medusa Spider",
+    "elapsed_sec": 38.5,
+    "status": "ok",
+    "ground_truth": "CharmingCypress",
+    "url": "https://www.volexity.com/blog/2024/02/13/charmingcypress-innovating-persistence/"
+  },
+  {
+    "index": 26,
+    "prediction": "APT28",
+    "elapsed_sec": 35.7,
+    "status": "ok",
+    "ground_truth": "Mint Sandstorm",
+    "url": "https://www.microsoft.com/en-us/security/blog/2023/04/18/nation-state-threat-actor-mint-sandstorm-refines-tradecraft-to-attack-high-value-targets/"
+  },
+  {
+    "index": 27,
+    "prediction": "Threat Actor Name",
+    "elapsed_sec": 33.3,
+    "status": "ok",
+    "ground_truth": "APT31",
+    "url": "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis/"
+  },
+  {
+    "index": 28,
+    "prediction": "Gamaredon",
+    "elapsed_sec": 28.1,
+    "status": "ok",
+    "ground_truth": "Gamaredon",
+    "url": "https://research.checkpoint.com/2023/malware-spotlight-into-the-trash-analyzing-litterdrifter/"
+  },
+  {
+    "index": 29,
+    "prediction": "Threat Actor Name",
+    "elapsed_sec": 27.8,
+    "status": "ok",
+    "ground_truth": "Gamaredon",
+    "url": "https://blogs.blackberry.com/en/2023/01/gamaredon-abuses-telegram-to-target-ukrainian-organizations"
+  },
+  {
+    "index": 30,
+    "prediction": "Sharp Panda",
+    "elapsed_sec": 43.0,
+    "status": "ok",
+    "ground_truth": "Sharp Panda",
+    "url": "https://research.checkpoint.com/2023/pandas-with-a-soul-chinese-espionage-attacks-against-southeast-asian-government-entities/"
+  },
+  {
+    "index": 31,
+    "prediction": "Kimsuky",
+    "elapsed_sec": 34.4,
+    "status": "ok",
+    "ground_truth": "Bitter APT",
+    "url": "https://blog.talosintelligence.com/bitter-apt-adds-bangladesh-to-their/"
+  },
+  {
+    "index": 32,
+    "prediction": "Confucius",
+    "elapsed_sec": 30.4,
+    "status": "ok",
+    "ground_truth": "Confucius",
+    "url": "https://www.lookout.com/threat-intelligence/article/lookout-discovers-novel-confucius-apt-android-spyware-linked-to-india-pakistan-conflict"
+  },
+  {
+    "index": 33,
+    "prediction": "Energetic Bear",
+    "elapsed_sec": 40.6,
+    "status": "ok",
+    "ground_truth": "Dragonfly",
+    "url": "https://symantec-enterprise-blogs.security.com/threat-intelligence/dragonfly-energy-sector-cyber-attacks"
+  },
+  {
+    "index": 34,
+    "prediction": "RedEyes",
+    "elapsed_sec": 29.9,
+    "status": "ok",
+    "ground_truth": "Andariel",
+    "url": "https://asec.ahnlab.com/en/63192/"
+  },
+  {
+    "index": 35,
+    "prediction": "Fog of War",
+    "elapsed_sec": 24.6,
+    "status": "ok",
+    "ground_truth": "COLDRIVER",
+    "url": "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/"
+  },
+  {
+    "index": 36,
+    "prediction": "BAHAMUT",
+    "elapsed_sec": 33.1,
+    "status": "ok",
+    "ground_truth": "Bahamut",
+    "url": "https://www.welivesecurity.com/2022/11/23/bahamut-cybermercenary-group-targets-android-users-fake-vpn-apps/"
+  },
+  {
+    "index": 37,
+    "prediction": "StarCruft",
+    "elapsed_sec": 27.8,
+    "status": "ok",
+    "ground_truth": "APT37",
+    "url": "https://www.bleepingcomputer.com/news/security/apt37-hackers-deploy-new-fadestealer-eavesdropping-malware/"
+  },
+  {
+    "index": 38,
+    "prediction": "Peach Sandstorm",
+    "elapsed_sec": 31.2,
+    "status": "ok",
+    "ground_truth": "APT33",
+    "url": "https://www.uscloud.com/blog/hackers-target-government-defense-contractors-with-new-backdoor-malware/"
+  },
+  {
+    "index": 39,
+    "prediction": "Twisted Panda",
+    "elapsed_sec": 36.8,
+    "status": "ok",
+    "ground_truth": "APT29",
+    "url": "https://www.mandiant.com/resources/blog/apt29-wineloader-german-political-parties"
+  },
+  {
+    "index": 40,
+    "prediction": "Cozy Bear",
+    "elapsed_sec": 34.6,
+    "status": "ok",
+    "ground_truth": "APT29",
+    "url": "https://www.cyberark.com/resources/blog/apt29s-attack-on-microsoft-tracking-cozy-bears-footprints"
+  },
+  {
+    "index": 41,
+    "prediction": "APT28",
+    "elapsed_sec": 27.2,
+    "status": "ok",
+    "ground_truth": "APT29",
+    "url": "https://www.infosecurity-magazine.com/news/russias-apt29-embassies-ngrok/"
+  },
+  {
+    "index": 42,
+    "prediction": "Nobelium",
+    "elapsed_sec": 42.5,
+    "status": "ok",
+    "ground_truth": "Diamond Sleet",
+    "url": "https://www.microsoft.com/en-us/security/blog/2023/11/22/diamond-sleet-supply-chain-compromise-distributes-a-modified-cyberlink-installer/"
+  },
+  {
+    "index": 43,
+    "prediction": "Lazarus",
+    "elapsed_sec": 30.8,
+    "status": "ok",
+    "ground_truth": "Lazarus",
+    "url": "https://thehackernews.com/2024/04/north-koreas-lazarus-group-deploys-new.html"
+  },
+  {
+    "index": 44,
+    "prediction": "MuddyWater",
+    "elapsed_sec": 30.1,
+    "status": "ok",
+    "ground_truth": "Lazarus",
+    "url": "https://blog.talosintelligence.com/lazarus-collectionrat/"
+  },
+  {
+    "index": 45,
+    "prediction": "CozyDuke",
+    "elapsed_sec": 32.3,
+    "status": "ok",
+    "ground_truth": "Lazarus",
+    "url": "https://securityscorecard.com/research/lazarus-group-suspicious-traffic-involving-state-government-ip-addresses/"
+  },
+  {
+    "index": 46,
+    "prediction": "Threat Actor Name",
+    "elapsed_sec": 31.5,
+    "status": "ok",
+    "ground_truth": "Lazarus",
+    "url": "https://siliconangle.com/2023/08/29/north-korea-lazarus-group-beefs-malware-attacks/"
+  },
+  {
+    "index": 47,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 32.5,
+    "status": "ok",
+    "ground_truth": "OilRig",
+    "url": "https://www.darkreading.com/ics-ot-security/iran-oilrig-cyberattackers-target-israel-critical-infrastructure"
+  },
+  {
+    "index": 48,
+    "prediction": "Crambus",
+    "elapsed_sec": 37.8,
+    "status": "ok",
+    "ground_truth": "MuddyWater",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/iran-linked-muddywater-spies-middle-east-govt-eight-months"
+  },
+  {
+    "index": 49,
+    "prediction": "Tortoiseshell",
+    "elapsed_sec": 35.8,
+    "status": "ok",
+    "ground_truth": "Turla",
+    "url": "https://cyware.com/resources/research-and-analysis/symphony-of-intrusion-turla-apts-orchestrated-attacks-across-borders-ddd5"
+  }
+]

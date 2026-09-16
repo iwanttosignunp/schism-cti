@@ -1,0 +1,7 @@
+{
+  "mode": "main",
+  "accuracy": 61.9,
+  "correct": 619,
+  "total": 1000,
+  "num_failed": 0
+}

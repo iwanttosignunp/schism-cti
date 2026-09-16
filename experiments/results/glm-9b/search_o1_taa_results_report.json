@@ -1,0 +1,260 @@
+{
+  "method": "search_o1",
+  "correct_accuracy": 22.0,
+  "plausible_accuracy": 34.0,
+  "total": 50,
+  "num_valid": 50,
+  "num_failed": 0,
+  "details": [
+    {
+      "gt": "SideCopy",
+      "pred": "Transparent Tribe (APT36)",
+      "result": "I"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "Stately Taurus",
+      "result": "C"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "APT32",
+      "result": "I"
+    },
+    {
+      "gt": "MUMMY SPIDER",
+      "pred": "Unknown",
+      "result": "I"
+    },
+    {
+      "gt": "Dark Caracal",
+      "pred": "Unknown",
+      "result": "I"
+    },
+    {
+      "gt": "APT19",
+      "pred": "Chinese Threat Actor",
+      "result": "I"
+    },
+    {
+      "gt": "APT19",
+      "pred": "Storm-0303",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "QuasarRAT Group",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "UNC4210",
+      "result": "C"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Cozy Bear",
+      "result": "P"
+    },
+    {
+      "gt": "APT28",
+      "pred": "Based on the provided threat report, the incident appears to be attributed to the threat actor known as APT29. This group is known for its use of spear-phishing campaigns, PowerShell scripts, and various backdoors like OCEANMAP. The report mentions the use of MASEPIE, OPENSSH, STEELHOOK, and IMPACKET, which are consistent with the TTPs of APT29. Additionally, the report indicates that similar attacks have been recorded in relation to Polish organizations, which aligns with APT29's history of targeting Eastern European nations. Therefore, my conclusion is that the threat actor responsible for this incident is APT29.",
+      "result": "I"
+    },
+    {
+      "gt": "APT28",
+      "pred": "",
+      "result": "I"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "Foreign Intelligence Service of the Russian Federation",
+      "result": "I"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "APT41",
+      "pred": "PLACEHOLDER",
+      "result": "I"
+    },
+    {
+      "gt": "lazarus",
+      "pred": "Onyx Sleet",
+      "result": "C"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "Reconnaissance General Bureau (RGB)",
+      "result": "I"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "Deep Panda",
+      "result": "I"
+    },
+    {
+      "gt": "APT36",
+      "pred": "SideCopy",
+      "result": "P"
+    },
+    {
+      "gt": "APT35",
+      "pred": "APT35",
+      "result": "C"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "DEV-0842/BanishedKitten",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "APT33",
+      "result": "P"
+    },
+    {
+      "gt": "CharmingCypress",
+      "pred": "IRANIAN ORIGIN THREAT ACTOR",
+      "result": "I"
+    },
+    {
+      "gt": "Mint Sandstorm",
+      "pred": "PHOSPHORUS",
+      "result": "C"
+    },
+    {
+      "gt": "APT31",
+      "pred": "APT41",
+      "result": "I"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Cozy Bear",
+      "result": "I"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Sharp Panda",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Bitter APT",
+      "pred": "APT32",
+      "result": "I"
+    },
+    {
+      "gt": "Confucius",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Dragonfly",
+      "pred": "Dragonfly",
+      "result": "C"
+    },
+    {
+      "gt": "Andariel",
+      "pred": "Kimsuky",
+      "result": "P"
+    },
+    {
+      "gt": "COLDRIVER",
+      "pred": "Cozy Bear",
+      "result": "P"
+    },
+    {
+      "gt": "Bahamut",
+      "pred": "APT32",
+      "result": "I"
+    },
+    {
+      "gt": "APT37",
+      "pred": "StarCruft",
+      "result": "I"
+    },
+    {
+      "gt": "APT33",
+      "pred": "HOLMIUM",
+      "result": "C"
+    },
+    {
+      "gt": "APT29",
+      "pred": "Cozy Bear",
+      "result": "C"
+    },
+    {
+      "gt": "APT29",
+      "pred": "Cozy Bear",
+      "result": "C"
+    },
+    {
+      "gt": "APT29",
+      "pred": "",
+      "result": "I"
+    },
+    {
+      "gt": "Diamond Sleet",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Lazarus",
+      "result": "C"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "North Korean state-sponsored actor",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "These points strongly suggest that the threat actor responsible for the described incidents is the Lazarus APT group.",
+      "result": "I"
+    },
+    {
+      "gt": "OilRig",
+      "pred": "Iranian APT33",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Crambus",
+      "result": "P"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Turla",
+      "result": "C"
+    }
+  ]
+}

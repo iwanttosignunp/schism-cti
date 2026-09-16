@@ -1,0 +1,7 @@
+{
+  "method": "rag_intel",
+  "accuracy": 57.56,
+  "correct": 1439,
+  "total": 2500,
+  "num_failed": 3
+}

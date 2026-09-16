@@ -1,0 +1,260 @@
+{
+  "method": "iter_retgen",
+  "correct_accuracy": 24.0,
+  "plausible_accuracy": 32.0,
+  "total": 50,
+  "num_valid": 50,
+  "num_failed": 0,
+  "details": [
+    {
+      "gt": "SideCopy",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "APT10",
+      "result": "I"
+    },
+    {
+      "gt": "MUMMY SPIDER",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "Dark Caracal",
+      "pred": "APT30",
+      "result": "I"
+    },
+    {
+      "gt": "APT19",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT19",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "APT-C-36",
+      "result": "C"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Gamaredon APT",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Turla",
+      "result": "C"
+    },
+    {
+      "gt": "APT28",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT28",
+      "pred": "Russian Cyber Operations",
+      "result": "I"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "APT29",
+      "result": "C"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "Kimsuky",
+      "result": "I"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "OilRig",
+      "result": "C"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "Turla",
+      "result": "I"
+    },
+    {
+      "gt": "APT41",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "lazarus",
+      "pred": "MuddyWater",
+      "result": "P"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "APT31",
+      "result": "I"
+    },
+    {
+      "gt": "APT36",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT35",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "CharmingCypress",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "Mint Sandstorm",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT31",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Gamaredon",
+      "result": "C"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Gamaredon",
+      "result": "C"
+    },
+    {
+      "gt": "Sharp Panda",
+      "pred": "Sharp Panda",
+      "result": "C"
+    },
+    {
+      "gt": "Bitter APT",
+      "pred": "Kimsuky",
+      "result": "P"
+    },
+    {
+      "gt": "Confucius",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "Dragonfly",
+      "pred": "APT28",
+      "result": "I"
+    },
+    {
+      "gt": "Andariel",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "COLDRIVER",
+      "pred": "Coldriver",
+      "result": "C"
+    },
+    {
+      "gt": "Bahamut",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT37",
+      "pred": "APT37",
+      "result": "C"
+    },
+    {
+      "gt": "APT33",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "Apollo Group",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "APT28",
+      "result": "C"
+    },
+    {
+      "gt": "Diamond Sleet",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Lazarus",
+      "result": "C"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "MuddyWater",
+      "result": "P"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "OilRig",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Crambus",
+      "result": "P"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Turla",
+      "result": "C"
+    }
+  ]
+}

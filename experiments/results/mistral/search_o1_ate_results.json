@@ -1,0 +1,482 @@
+[
+  {
+    "index": 0,
+    "prediction": "T1071, T1573, T1083, T1070, T1059, T1057, T1112, T1041",
+    "elapsed_sec": 2.7,
+    "status": "ok",
+    "ground_truth": "T1071, T1573, T1083, T1070",
+    "url": "https://attack.mitre.org/software/S0066/"
+  },
+  {
+    "index": 1,
+    "prediction": "T1071, T1573, T1083, T1059, T1057, T1082, T1055, T1003",
+    "elapsed_sec": 3.2,
+    "status": "ok",
+    "ground_truth": "T1071, T1059, T1573, T1083, T1057, T1082",
+    "url": "https://attack.mitre.org/software/S0065/"
+  },
+  {
+    "index": 2,
+    "prediction": "T1071, T1573, T1083, T1059, T1055, T1003, T1053, T1113",
+    "elapsed_sec": 1.8,
+    "status": "ok",
+    "ground_truth": "T1071, T1059, T1140, T1105, T1027, T1055, T1518",
+    "url": "https://attack.mitre.org/software/S0469/"
+  },
+  {
+    "index": 3,
+    "prediction": "T1071, T1573, T1437, T1406, T1407, T1430, T1418, T1426, T1512, T1517, T1533, T1474, T1626, T1629, T1633, T1646, T1398, T1404, T1544",
+    "elapsed_sec": 3.1,
+    "status": "ok",
+    "ground_truth": "T1626, T1517, T1437, T1429, T1623, T1533, T1407, T1646, T1404, T1629, T1544, T1430, T1406, T1636, T1418, T1426, T1422, T1512, T1633",
+    "url": "https://attack.mitre.org/software/S1061/"
+  },
+  {
+    "index": 4,
+    "prediction": "T1071, T1059, T1083, T1057, T1082, T1132, T1041, T1068",
+    "elapsed_sec": 3.1,
+    "status": "ok",
+    "ground_truth": "T1071, T1059, T1005, T1140, T1083, T1105",
+    "url": "https://attack.mitre.org/software/S1028/"
+  },
+  {
+    "index": 5,
+    "prediction": "T1059, T1083, T1573, T1055, T1070, T1053, T1112, T1041",
+    "elapsed_sec": 2.7,
+    "status": "ok",
+    "ground_truth": "T1059, T1573, T1546",
+    "url": "https://attack.mitre.org/software/S0202/"
+  },
+  {
+    "index": 6,
+    "prediction": "T1083, T1057, T1082, T1053, T1041, T1112, T1005",
+    "elapsed_sec": 1.7,
+    "status": "ok",
+    "ground_truth": "T1087, T1482, T1069, T1018, T1016",
+    "url": "https://attack.mitre.org/software/S0552/"
+  },
+  {
+    "index": 7,
+    "prediction": "T1071, T1573, T1083, T1070, T1059, T1057, T1112, T1041",
+    "elapsed_sec": 3.1,
+    "status": "ok",
+    "ground_truth": "T1071, T1560, T1547, T1059, T1132, T1074, T1573",
+    "url": "https://attack.mitre.org/software/S0045/"
+  },
+  {
+    "index": 8,
+    "prediction": "T1059, T1083, T1070, T1055, T1003, T1053, T1113, T1071",
+    "elapsed_sec": 2.9,
+    "status": "ok",
+    "ground_truth": "T1577, T1404, T1643, T1628, T1630, T1655, T1406",
+    "url": "https://attack.mitre.org/software/S0440/"
+  },
+  {
+    "index": 9,
+    "prediction": "T1071, T1573, T1083, T1070, T1059, T1057, T1112, T1041",
+    "elapsed_sec": 2.3,
+    "status": "ok",
+    "ground_truth": "T1087, T1071, T1560, T1547, T1185, T1115, T1555, T1140",
+    "url": "https://attack.mitre.org/software/S0331/"
+  },
+  {
+    "index": 10,
+    "prediction": "T1027, T1083, T1059, T1055, T1070, T1082, T1041, T1132",
+    "elapsed_sec": 2.1,
+    "status": "ok",
+    "ground_truth": "T1560, T1052, T1105, T1091, T1016, T1033",
+    "url": "https://attack.mitre.org/software/S0092/"
+  },
+  {
+    "index": 11,
+    "prediction": "T1071, T1437, T1406, T1407, T1430, T1418, T1426, T1533, T1544, T1039, T1041",
+    "elapsed_sec": 2.0,
+    "status": "ok",
+    "ground_truth": "T1437, T1429, T1398, T1533, T1521, T1624, T1646, T1420, T1430",
+    "url": "https://attack.mitre.org/software/S1095/"
+  },
+  {
+    "index": 12,
+    "prediction": "T1474, T1626",
+    "elapsed_sec": 0.7,
+    "status": "ok",
+    "ground_truth": "T1474",
+    "url": "https://attack.mitre.org/software/S0319/"
+  },
+  {
+    "index": 13,
+    "prediction": "T1071, T1573, T1083, T1070, T1059, T1057, T1112, T1041",
+    "elapsed_sec": 3.0,
+    "status": "ok",
+    "ground_truth": "T1071, T1547, T1005, T1140, T1568, T1041, T1083, T1105, T1112, T1106, T1027",
+    "url": "https://attack.mitre.org/software/S1025/"
+  },
+  {
+    "index": 14,
+    "prediction": "T1071, T1573, T1083, T1070, T1059, T1055, T1003, T1053",
+    "elapsed_sec": 3.3,
+    "status": "ok",
+    "ground_truth": "T1071, T1059, T1543, T1480, T1008, T1564, T1070, T1105",
+    "url": "https://attack.mitre.org/software/S0504/"
+  },
+  {
+    "index": 15,
+    "prediction": "T1071, T1053, T1083, T1437, T1517, T1533, T1629",
+    "elapsed_sec": 1.4,
+    "status": "ok",
+    "ground_truth": "T1437, T1624, T1643, T1628, T1655, T1406, T1418, T1426, T1633",
+    "url": "https://attack.mitre.org/software/S0525/"
+  },
+  {
+    "index": 16,
+    "prediction": "T1071, T1437, T1418, T1426, T1533, T1629, T1544",
+    "elapsed_sec": 1.5,
+    "status": "ok",
+    "ground_truth": "T1437, T1430, T1644, T1636, T1426",
+    "url": "https://attack.mitre.org/software/S0304/"
+  },
+  {
+    "index": 17,
+    "prediction": "T1437, T1407, T1430, T1418, T1426, T1512, T1517, T1533, T1626, T1629, T1633, T1646, T1398, T1404, T1544",
+    "elapsed_sec": 2.9,
+    "status": "ok",
+    "ground_truth": "T1624, T1629, T1655, T1406",
+    "url": "https://attack.mitre.org/software/S0524/"
+  },
+  {
+    "index": 18,
+    "prediction": "T1083, T1573, T1437, T1418, T1533, T1629, T1646, T1398",
+    "elapsed_sec": 1.7,
+    "status": "ok",
+    "ground_truth": "T1426, T1422, T1481",
+    "url": "https://attack.mitre.org/software/S0310/"
+  },
+  {
+    "index": 19,
+    "prediction": "T1071, T1083, T1057, T1055, T1053, T1003, T1112, T1041",
+    "elapsed_sec": 3.0,
+    "status": "ok",
+    "ground_truth": "T1071, T1547, T1105, T1036, T1055, T1091",
+    "url": "https://attack.mitre.org/software/S1074/"
+  },
+  {
+    "index": 20,
+    "prediction": "T1437, T1406, T1407, T1430, T1418, T1426, T1512, T1517, T1533, T1626, T1629, T1633, T1646, T1398, T1404, T1544",
+    "elapsed_sec": 2.5,
+    "status": "ok",
+    "ground_truth": "T1429, T1616, T1430, T1655, T1636, T1582, T1422, T1512",
+    "url": "https://attack.mitre.org/software/S0292/"
+  },
+  {
+    "index": 21,
+    "prediction": "T1437, T1406, T1407, T1430, T1418, T1426, T1512, T1517, T1533, T1474, T1626, T1629, T1633, T1646, T1398, T1404, T1544",
+    "elapsed_sec": 2.8,
+    "status": "ok",
+    "ground_truth": "T1532, T1429, T1616, T1471, T1533, T1407, T1629, T1417, T1430, T1655",
+    "url": "https://attack.mitre.org/software/S0422/"
+  },
+  {
+    "index": 22,
+    "prediction": "T1059, T1083, T1071, T1055, T1070, T1082, T1041, T1112",
+    "elapsed_sec": 1.7,
+    "status": "ok",
+    "ground_truth": "T1548, T1071, T1059, T1543, T1140, T1546, T1041",
+    "url": "https://attack.mitre.org/software/S0584/"
+  },
+  {
+    "index": 23,
+    "prediction": "T1059, T1083, T1071, T1055, T1003, T1053, T1113, T1082",
+    "elapsed_sec": 3.1,
+    "status": "ok",
+    "ground_truth": "T1134, T1071, T1560, T1119, T1547, T1059, T1005, T1025",
+    "url": "https://attack.mitre.org/software/S0622/"
+  },
+  {
+    "index": 24,
+    "prediction": "T1437, T1406, T1407, T1430, T1418, T1426, T1512, T1517, T1533, T1474, T1626, T1629, T1633, T1646, T1398, T1404, T1544",
+    "elapsed_sec": 3.0,
+    "status": "ok",
+    "ground_truth": "T1626, T1437, T1532, T1655, T1575, T1406, T1636, T1582, T1426, T1422",
+    "url": "https://attack.mitre.org/software/S0540/"
+  },
+  {
+    "index": 25,
+    "prediction": "T1071, T1083, T1059, T1057, T1082, T1055, T1003, T1053",
+    "elapsed_sec": 2.7,
+    "status": "ok",
+    "ground_truth": "T1505",
+    "url": "https://attack.mitre.org/software/S0073/"
+  },
+  {
+    "index": 26,
+    "prediction": "T1053, T1083",
+    "elapsed_sec": 0.7,
+    "status": "ok",
+    "ground_truth": "T1053",
+    "url": "https://attack.mitre.org/software/S0110/"
+  },
+  {
+    "index": 27,
+    "prediction": "T1071, T1573, T1083, T1070, T1059, T1057, T1082, T1055",
+    "elapsed_sec": 3.8,
+    "status": "ok",
+    "ground_truth": "T1071, T1547, T1059, T1005, T1074, T1041, T1095, T1518",
+    "url": "https://attack.mitre.org/software/S1029/"
+  },
+  {
+    "index": 28,
+    "prediction": "T1059, T1071, T1083, T1055, T1070, T1053, T1041, T1068",
+    "elapsed_sec": 2.0,
+    "status": "ok",
+    "ground_truth": "T1548, T1059, T1132, T1083",
+    "url": "https://attack.mitre.org/software/S0129/"
+  },
+  {
+    "index": 29,
+    "prediction": "T1071, T1573, T1083, T1059, T1057, T1082, T1041, T1068",
+    "elapsed_sec": 2.5,
+    "status": "ok",
+    "ground_truth": "T1560, T1005, T1140, T1573, T1105, T1095, T1571, T1016, T1033",
+    "url": "https://attack.mitre.org/software/S0515/"
+  },
+  {
+    "index": 30,
+    "prediction": "T1059, T1573, T1083, T1140, T1071, T1055, T1003, T1547",
+    "elapsed_sec": 1.7,
+    "status": "ok",
+    "ground_truth": "T1059, T1140, T1573, T1559, T1205",
+    "url": "https://attack.mitre.org/software/S1123/"
+  },
+  {
+    "index": 31,
+    "prediction": "T1055, T1070, T1083, T1059, T1041, T1082, T1112, T1021",
+    "elapsed_sec": 1.9,
+    "status": "ok",
+    "ground_truth": "T1548, T1134, T1098, T1583, T1071, T1010, T1119",
+    "url": "https://attack.mitre.org/software/S1111/"
+  },
+  {
+    "index": 32,
+    "prediction": "T1059, T1071, T1083, T1112, T1041, T1055, T1070, T1573",
+    "elapsed_sec": 1.6,
+    "status": "ok",
+    "ground_truth": "T1071, T1573, T1090, T1016, T1033",
+    "url": "https://attack.mitre.org/software/S1106/"
+  },
+  {
+    "index": 33,
+    "prediction": "T1071, T1083, T1059, T1057, T1082, T1041, T1005, T1074",
+    "elapsed_sec": 2.1,
+    "status": "ok",
+    "ground_truth": "T1059, T1074, T1482, T1189, T1048, T1105, T1036, T1027, T1566",
+    "url": "https://attack.mitre.org/software/S1124/"
+  },
+  {
+    "index": 34,
+    "prediction": "T1437, T1406, T1407, T1430, T1418, T1426, T1512, T1517, T1533, T1626, T1629, T1633, T1646",
+    "elapsed_sec": 2.4,
+    "status": "ok",
+    "ground_truth": "T1429, T1430, T1636, T1409, T1512",
+    "url": "https://attack.mitre.org/software/S1128/"
+  },
+  {
+    "index": 35,
+    "prediction": "T1071, T1083, T1059, T1057, T1003, T1055, T1041, T1068",
+    "elapsed_sec": 2.3,
+    "status": "ok",
+    "ground_truth": "T1005, T1567, T1083, T1574",
+    "url": "https://attack.mitre.org/software/S1102/"
+  },
+  {
+    "index": 36,
+    "prediction": "T1071, T1059, T1083, T1070, T1573, T1055, T1132, T1140",
+    "elapsed_sec": 2.0,
+    "status": "ok",
+    "ground_truth": "T1071, T1059, T1132, T1005, T1074, T1140, T1573",
+    "url": "https://attack.mitre.org/software/S1110/"
+  },
+  {
+    "index": 37,
+    "prediction": "T1071, T1059, T1083, T1055, T1003, T1053, T1113, T1074",
+    "elapsed_sec": 1.8,
+    "status": "ok",
+    "ground_truth": "T1071, T1132, T1140, T1105, T1505",
+    "url": "https://attack.mitre.org/software/S1112/"
+  },
+  {
+    "index": 38,
+    "prediction": "T1059, T1083, T1071, T1055, T1041, T1132, T1027, T1140",
+    "elapsed_sec": 1.8,
+    "status": "ok",
+    "ground_truth": "T1071, T1059, T1554, T1001, T1140, T1505",
+    "url": "https://attack.mitre.org/software/S1120/"
+  },
+  {
+    "index": 39,
+    "prediction": "T1071, T1573, T1083, T1070, T1059, T1057, T1112, T1041",
+    "elapsed_sec": 3.0,
+    "status": "ok",
+    "ground_truth": "T1071, T1059, T1543, T1140, T1573, T1190, T1083, T1222, T1564, T1574",
+    "url": "https://attack.mitre.org/software/S1105/"
+  },
+  {
+    "index": 40,
+    "prediction": "T1003, T1071, T1083, T1112, T1573, T1059, T1074",
+    "elapsed_sec": 1.3,
+    "status": "ok",
+    "ground_truth": "T1059, T1554, T1132, T1048, T1056",
+    "url": "https://attack.mitre.org/software/S1116/"
+  },
+  {
+    "index": 41,
+    "prediction": "T1083, T1057, T1055, T1003, T1053, T1113, T1070, T1041",
+    "elapsed_sec": 1.6,
+    "status": "ok",
+    "ground_truth": "T1485, T1561, T1083, T1529",
+    "url": "https://attack.mitre.org/software/S1125/"
+  },
+  {
+    "index": 42,
+    "prediction": "T1071, T1083, T1003, T1055, T1041, T1005, T1560, T1039",
+    "elapsed_sec": 1.5,
+    "status": "ok",
+    "ground_truth": "T1560, T1119, T1005, T1074, T1083, T1574",
+    "url": "https://attack.mitre.org/software/S1101/"
+  },
+  {
+    "index": 43,
+    "prediction": "T1059, T1071, T1083, T1132, T1573",
+    "elapsed_sec": 1.1,
+    "status": "ok",
+    "ground_truth": "T1071, T1554, T1140, T1573, T1505",
+    "url": "https://attack.mitre.org/software/S1119/"
+  },
+  {
+    "index": 44,
+    "prediction": "T1055, T1083, T1070, T1059, T1003, T1053, T1041, T1112",
+    "elapsed_sec": 3.2,
+    "status": "ok",
+    "ground_truth": "T1547, T1176, T1217, T1115, T1059, T1555, T1140, T1573, T1041",
+    "url": "https://attack.mitre.org/software/S1122/"
+  },
+  {
+    "index": 45,
+    "prediction": "T1071, T1573, T1083, T1059, T1055, T1041, T1132, T1005",
+    "elapsed_sec": 2.3,
+    "status": "ok",
+    "ground_truth": "T1071, T1554, T1132, T1140, T1573, T1105, T1505",
+    "url": "https://attack.mitre.org/software/S1115/"
+  },
+  {
+    "index": 46,
+    "prediction": "T1071, T1573, T1083, T1070, T1059, T1057, T1113",
+    "elapsed_sec": 1.5,
+    "status": "ok",
+    "ground_truth": "T1554, T1543, T1573, T1083, T1095, T1090, T1082",
+    "url": "https://attack.mitre.org/software/S1121/"
+  },
+  {
+    "index": 47,
+    "prediction": "T1437, T1407, T1430, T1517, T1533, T1629, T1646, T1398, T1404, T1544",
+    "elapsed_sec": 1.9,
+    "status": "ok",
+    "ground_truth": "T1517, T1624, T1643, T1628, T1417, T1409",
+    "url": "https://attack.mitre.org/software/S1103/"
+  },
+  {
+    "index": 48,
+    "prediction": "T1056, T1003, T1055, T1070, T1113, T1059, T1083, T1132",
+    "elapsed_sec": 2.0,
+    "status": "ok",
+    "ground_truth": "T1119, T1059, T1074, T1083, T1003, T1055",
+    "url": "https://attack.mitre.org/software/S1109/"
+  },
+  {
+    "index": 49,
+    "prediction": "T1059, T1083, T1573, T1055, T1041, T1071, T1053, T1112",
+    "elapsed_sec": 2.3,
+    "status": "ok",
+    "ground_truth": "T1059, T1573, T1083, T1562, T1105, T1095, T1057, T1090, T1205",
+    "url": "https://attack.mitre.org/software/S1114/"
+  },
+  {
+    "index": 50,
+    "prediction": "T1071, T1573, T1083, T1070, T1059, T1057, T1112, T1041",
+    "elapsed_sec": 4.0,
+    "status": "ok",
+    "ground_truth": "T1071, T1543, T1132, T1001, T1140, T1573, T1480, T1083, T1574, T1070",
+    "url": "https://attack.mitre.org/software/S1100/"
+  },
+  {
+    "index": 51,
+    "prediction": "T1059, T1083, T1055, T1071, T1573, T1053, T1112, T1041",
+    "elapsed_sec": 2.5,
+    "status": "ok",
+    "ground_truth": "T1071, T1059, T1543, T1132, T1005, T1573, T1083, T1105, T1036, T1112, T1106",
+    "url": "https://attack.mitre.org/software/S1099/"
+  },
+  {
+    "index": 52,
+    "prediction": "T1071, T1573, T1083, T1059, T1055, T1003, T1053, T1113",
+    "elapsed_sec": 3.0,
+    "status": "ok",
+    "ground_truth": "T1554, T1140, T1105, T1027, T1505, T1205",
+    "url": "https://attack.mitre.org/software/S1118/"
+  },
+  {
+    "index": 53,
+    "prediction": "T1059, T1083, T1070, T1055, T1082, T1041, T1068, T1132",
+    "elapsed_sec": 2.2,
+    "status": "ok",
+    "ground_truth": "T1059, T1486, T1083, T1490, T1106, T1135, T1057, T1082, T1047",
+    "url": "https://attack.mitre.org/software/S1129/"
+  },
+  {
+    "index": 54,
+    "prediction": "T1059, T1083, T1070, T1055, T1113, T1003, T1053, T1041",
+    "elapsed_sec": 2.6,
+    "status": "ok",
+    "ground_truth": "T1059, T1498, T1057, T1090, T1053, T1113, T1082, T1016",
+    "url": "https://attack.mitre.org/software/S1107/"
+  },
+  {
+    "index": 55,
+    "prediction": "T1071, T1083, T1003, T1059, T1112, T1055, T1041, T1068",
+    "elapsed_sec": 1.7,
+    "status": "ok",
+    "ground_truth": "T1554, T1074, T1556, T1111, T1027",
+    "url": "https://attack.mitre.org/software/S1104/"
+  },
+  {
+    "index": 56,
+    "prediction": "T1071, T1573, T1083, T1070, T1059, T1057, T1112, T1041",
+    "elapsed_sec": 2.9,
+    "status": "ok",
+    "ground_truth": "T1005, T1140, T1027, T1505",
+    "url": "https://attack.mitre.org/software/S1113/"
+  },
+  {
+    "index": 57,
+    "prediction": "T1071, T1059, T1083, T1573, T1055, T1003, T1053, T1041",
+    "elapsed_sec": 2.1,
+    "status": "ok",
+    "ground_truth": "T1071, T1059, T1132, T1505",
+    "url": "https://attack.mitre.org/software/S1108/"
+  },
+  {
+    "index": 58,
+    "prediction": "T1437, T1406, T1407, T1430, T1418, T1426, T1512, T1517, T1533, T1474, T1626, T1629, T1633, T1646, T1398, T1404, T1041, T1039",
+    "elapsed_sec": 3.2,
+    "status": "ok",
+    "ground_truth": "T1429, T1533, T1404, T1544, T1417, T1655, T1636, T1426, T1512",
+    "url": "https://attack.mitre.org/software/S1126/"
+  },
+  {
+    "index": 59,
+    "prediction": "T1059, T1071, T1132, T1140, T1573",
+    "elapsed_sec": 1.5,
+    "status": "ok",
+    "ground_truth": "T1059, T1132, T1140, T1505",
+    "url": "https://attack.mitre.org/software/S1117/"
+  }
+]

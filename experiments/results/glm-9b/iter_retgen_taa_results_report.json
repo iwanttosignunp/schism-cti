@@ -1,0 +1,260 @@
+{
+  "method": "iter_retgen",
+  "correct_accuracy": 34.0,
+  "plausible_accuracy": 46.0,
+  "total": 50,
+  "num_valid": 50,
+  "num_failed": 0,
+  "details": [
+    {
+      "gt": "SideCopy",
+      "pred": "APT36",
+      "result": "P"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "Stately Taurus",
+      "result": "C"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "APT10",
+      "result": "I"
+    },
+    {
+      "gt": "MUMMY SPIDER",
+      "pred": "APT29",
+      "result": "I"
+    },
+    {
+      "gt": "Dark Caracal",
+      "pred": "APT30",
+      "result": "I"
+    },
+    {
+      "gt": "APT19",
+      "pred": "Sharp Panda",
+      "result": "C"
+    },
+    {
+      "gt": "APT19",
+      "pred": "Storm-0303",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "Blind Eagle",
+      "result": "C"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "BlindEagle",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "UNC4210",
+      "result": "C"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Turla",
+      "result": "C"
+    },
+    {
+      "gt": "APT28",
+      "pred": "APT28",
+      "result": "C"
+    },
+    {
+      "gt": "APT28",
+      "pred": "FIN8",
+      "result": "I"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "APT29",
+      "result": "C"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "North Korea's Reconnaissance General Bureau (RGB)",
+      "result": "I"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "OilRig",
+      "result": "C"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "TURLA",
+      "result": "I"
+    },
+    {
+      "gt": "APT41",
+      "pred": "Deep Panda",
+      "result": "I"
+    },
+    {
+      "gt": "lazarus",
+      "pred": "MuddyWater",
+      "result": "P"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "DarkSeoul",
+      "result": "I"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "DRBControl",
+      "result": "I"
+    },
+    {
+      "gt": "APT36",
+      "pred": "SideCopy",
+      "result": "P"
+    },
+    {
+      "gt": "APT35",
+      "pred": "Russian GRU",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Iranian Threat Actors",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Muddywater",
+      "result": "C"
+    },
+    {
+      "gt": "CharmingCypress",
+      "pred": "BASICSTAR",
+      "result": "I"
+    },
+    {
+      "gt": "Mint Sandstorm",
+      "pred": "APT28",
+      "result": "I"
+    },
+    {
+      "gt": "APT31",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Gamaredon",
+      "result": "C"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Sharp Panda",
+      "pred": "Sharp Panda",
+      "result": "C"
+    },
+    {
+      "gt": "Bitter APT",
+      "pred": "Kimsuky",
+      "result": "P"
+    },
+    {
+      "gt": "Confucius",
+      "pred": "Confucius",
+      "result": "C"
+    },
+    {
+      "gt": "Dragonfly",
+      "pred": "DustSquad",
+      "result": "I"
+    },
+    {
+      "gt": "Andariel",
+      "pred": "RedEyes",
+      "result": "I"
+    },
+    {
+      "gt": "COLDRIVER",
+      "pred": "Fog of War",
+      "result": "I"
+    },
+    {
+      "gt": "Bahamut",
+      "pred": "BAHAMUT",
+      "result": "C"
+    },
+    {
+      "gt": "APT37",
+      "pred": "StarCruft",
+      "result": "I"
+    },
+    {
+      "gt": "APT33",
+      "pred": "Peach Sandstorm",
+      "result": "C"
+    },
+    {
+      "gt": "APT29",
+      "pred": "Twisted Panda",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "Cozy Bear",
+      "result": "C"
+    },
+    {
+      "gt": "APT29",
+      "pred": "APT28",
+      "result": "C"
+    },
+    {
+      "gt": "Diamond Sleet",
+      "pred": "Nobelium",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Lazarus",
+      "result": "C"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "MuddyWater",
+      "result": "P"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "APT29",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "OilRig",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Crambus",
+      "result": "P"
+    },
+    {
+      "gt": "Turla",
+      "pred": "TEMP.Veles",
+      "result": "I"
+    }
+  ]
+}

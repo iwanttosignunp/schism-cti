@@ -1,0 +1,260 @@
+{
+  "method": "cyberrag",
+  "correct_accuracy": 28.0,
+  "plausible_accuracy": 34.0,
+  "total": 50,
+  "num_valid": 50,
+  "num_failed": 0,
+  "details": [
+    {
+      "gt": "SideCopy",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "Stately Taurus",
+      "result": "C"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "Threat Actor Name: CL-STA-0044",
+      "result": "I"
+    },
+    {
+      "gt": "MUMMY SPIDER",
+      "pred": "Based on the provided information, the threat actor responsible for the described activities aligns with the characteristics of APT29 (also known as CozyDuke, CozyBear, or Office Monkeys). The following points support this attribution:\n\n1. **Multifaceted Malware**: APT29 is known for its ability to adapt and evolve, creating sophisticated malware capable of various attacks, which matches the description of [PLACEHOLDER].\n\n2. **Email Phishing**: APT29 has historically used spear-phishing campaigns, often targeting high-value individuals and entities, which is consistent with the phishing emails mentioned in the report.\n\n3. **Use of Obfuscated Code**: The mention of obfuscated VBA code and PowerShell scripts is typical of the tactics employed by APT29.\n\n4. **Targeting Specific Entities**: The reported communications with Ottumwa Schools and Bavarian Motorcars suggest a targeted approach, which is common in APT29 operations.\n\nTherefore, <answer>APT29",
+      "result": "I"
+    },
+    {
+      "gt": "Dark Caracal",
+      "pred": "Based on the analysis of the provided information, the threat actor responsible for the Bandook malware, as described in the retrieved reference reports, can be attributed to APT30.",
+      "result": "I"
+    },
+    {
+      "gt": "APT19",
+      "pred": "Sharp Panda",
+      "result": "C"
+    },
+    {
+      "gt": "APT19",
+      "pred": "Unknown Criminal Group",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "MuddyWater",
+      "result": "P"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Threat Actor Name: Turla / Venomous Bear",
+      "result": "I"
+    },
+    {
+      "gt": "APT28",
+      "pred": "APT28",
+      "result": "C"
+    },
+    {
+      "gt": "APT28",
+      "pred": "Based on the provided evidence, the threat actor responsible for the targeted attack on government bodies in Ukraine, utilizing spear phishing emails with the subject \"Windows Update\" and the subsequent deployment of a PowerShell script designed to collect information, is most likely associated with the Gamaredon group.",
+      "result": "I"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "APT29",
+      "result": "C"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "Threat Actor Name: Unknown",
+      "result": "I"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "OilRig",
+      "result": "C"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "Threat Actor Name: MuddyWater",
+      "result": "I"
+    },
+    {
+      "gt": "APT41",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "lazarus",
+      "pred": "Andariel subgroup of the Lazarus Group",
+      "result": "I"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "Based on the detailed analysis of the retrieved reference reports and considering the validation feedback, the identified threat actor is associated with the name \"DarkSeoul.\" Although there might be some confusion regarding the exact naming, the activities described in the reports, such as targeting South Korean entities and the use of specific malware, align closely with the characteristics attributed to the DarkSeoul group.",
+      "result": "I"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "APT29 (Cozy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "APT36",
+      "pred": "SideCopy",
+      "result": "P"
+    },
+    {
+      "gt": "APT35",
+      "pred": "APT35 (Charming Kitten)",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Iranian Threat Actors",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Seedworm",
+      "result": "C"
+    },
+    {
+      "gt": "CharmingCypress",
+      "pred": "APT35 (Charming Kitten)",
+      "result": "I"
+    },
+    {
+      "gt": "Mint Sandstorm",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "APT31",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Gamaredon",
+      "result": "C"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Sharp Panda",
+      "pred": "Sharp Panda",
+      "result": "C"
+    },
+    {
+      "gt": "Bitter APT",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Confucius",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Dragonfly",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Andariel",
+      "pred": "Threat Actor Name: RedEyes (ScarCrut)",
+      "result": "I"
+    },
+    {
+      "gt": "COLDRIVER",
+      "pred": "APT28",
+      "result": "P"
+    },
+    {
+      "gt": "Bahamut",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "APT37",
+      "pred": "StarCruft",
+      "result": "I"
+    },
+    {
+      "gt": "APT33",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "APT29 (Cozy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "Cozy Bear",
+      "result": "C"
+    },
+    {
+      "gt": "APT29",
+      "pred": "APT28",
+      "result": "C"
+    },
+    {
+      "gt": "Diamond Sleet",
+      "pred": "Lazarus Group",
+      "result": "C"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Lazarus",
+      "result": "C"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "North Korean State-Sponsored Actor",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Based on the provided information and considering the validation feedback, the threat actor associated with the APT campaign described can be attributed to \"CozyDuke.\" Although \"CozyDuke\" is not explicitly listed in the Know Your Enemies 2.0 report, it is a known alias for the North Korean Advanced Persistent Threat (APT) group, which aligns with the context of the question mentioning the Democratic People's Republic of Korea (DPRK) and the Lazarus Group.",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Threat Actor Name: Hidden Cobra",
+      "result": "I"
+    },
+    {
+      "gt": "OilRig",
+      "pred": "Threat Actor Name: OilRig",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "MuddyWater",
+      "result": "C"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Turla",
+      "result": "C"
+    }
+  ]
+}

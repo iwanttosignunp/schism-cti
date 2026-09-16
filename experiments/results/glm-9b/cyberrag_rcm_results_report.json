@@ -1,0 +1,7 @@
+{
+  "mode": "baseline",
+  "accuracy": 27.5,
+  "correct": 275,
+  "total": 1000,
+  "num_failed": 0
+}

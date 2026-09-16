@@ -1,0 +1,16 @@
+{
+  "setting": "adapt",
+  "ablation": null,
+  "defense": "on",
+  "n": 50,
+  "correct_acc": 40.0,
+  "plausible_acc": 70.0,
+  "framed": 12,
+  "poison_chunks": 30,
+  "hit_queries": 18,
+  "flagged": 14,
+  "adjudicated": 14,
+  "quarantined": 8,
+  "avg_time_sec": 88.5,
+  "avg_llm_calls": 24.4
+}

@@ -1,0 +1,260 @@
+{
+  "method": "arbgraph",
+  "correct_accuracy": 28.0,
+  "plausible_accuracy": 36.0,
+  "total": 50,
+  "num_valid": 50,
+  "num_failed": 0,
+  "details": [
+    {
+      "gt": "SideCopy",
+      "pred": "APT36",
+      "result": "P"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "Stately Taurus",
+      "result": "C"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "APT10",
+      "result": "I"
+    },
+    {
+      "gt": "MUMMY SPIDER",
+      "pred": "Iranian Actors",
+      "result": "I"
+    },
+    {
+      "gt": "Dark Caracal",
+      "pred": "APT30",
+      "result": "I"
+    },
+    {
+      "gt": "APT19",
+      "pred": "Sharp Panda",
+      "result": "C"
+    },
+    {
+      "gt": "APT19",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "APT-C-36",
+      "result": "C"
+    },
+    {
+      "gt": "Turla",
+      "pred": "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Unknown",
+      "result": "I"
+    },
+    {
+      "gt": "APT28",
+      "pred": "SILENCE",
+      "result": "I"
+    },
+    {
+      "gt": "APT28",
+      "pred": "UAC-0099",
+      "result": "I"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "APT29",
+      "result": "C"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "You are a cybersecurity expert specializing in threat intelligence. Your task is to analyze APT threat reports and attribute them to known threat actor groups.",
+      "result": "I"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "OilRig",
+      "result": "C"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "Turla",
+      "result": "I"
+    },
+    {
+      "gt": "APT41",
+      "pred": "Blue Mockingbird",
+      "result": "I"
+    },
+    {
+      "gt": "lazarus",
+      "pred": "Gamaredon",
+      "result": "I"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "Deep Panda",
+      "result": "I"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "Gamaredon",
+      "result": "I"
+    },
+    {
+      "gt": "APT36",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "APT35",
+      "pred": "GREATRIFT",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "MuddyWater",
+      "result": "C"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Seedworm",
+      "result": "C"
+    },
+    {
+      "gt": "CharmingCypress",
+      "pred": "Lazarus Group",
+      "result": "P"
+    },
+    {
+      "gt": "Mint Sandstorm",
+      "pred": "Apt28",
+      "result": "I"
+    },
+    {
+      "gt": "APT31",
+      "pred": "Axiom",
+      "result": "I"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Trident Ursa",
+      "result": "C"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Gamaredon",
+      "result": "C"
+    },
+    {
+      "gt": "Sharp Panda",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "Bitter APT",
+      "pred": "Kimsuky",
+      "result": "P"
+    },
+    {
+      "gt": "Confucius",
+      "pred": "Arid Viper",
+      "result": "I"
+    },
+    {
+      "gt": "Dragonfly",
+      "pred": "Unknown",
+      "result": "I"
+    },
+    {
+      "gt": "Andariel",
+      "pred": "Kimsuky Group",
+      "result": "I"
+    },
+    {
+      "gt": "COLDRIVER",
+      "pred": "Threat Actor Name",
+      "result": "I"
+    },
+    {
+      "gt": "Bahamut",
+      "pred": "Arid Viper",
+      "result": "I"
+    },
+    {
+      "gt": "APT37",
+      "pred": "APT37",
+      "result": "C"
+    },
+    {
+      "gt": "APT33",
+      "pred": "Honeybee",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "BlueBravo",
+      "result": "C"
+    },
+    {
+      "gt": "APT29",
+      "pred": "CyberArk Labs",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "APT28",
+      "result": "C"
+    },
+    {
+      "gt": "Diamond Sleet",
+      "pred": "APT 29",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Lazarus",
+      "result": "C"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "MuddyWater",
+      "result": "P"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Energetic Bear",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "[PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "OilRig",
+      "pred": "OilRig",
+      "result": "C"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Chafer",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Tortoiseshell",
+      "result": "I"
+    }
+  ]
+}

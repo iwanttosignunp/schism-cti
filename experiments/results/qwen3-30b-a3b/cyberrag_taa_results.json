@@ -1,0 +1,402 @@
+[
+  {
+    "index": 0,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 26.0,
+    "status": "ok",
+    "ground_truth": "SideCopy",
+    "url": "https://www.seqrite.com/blog/sidecopys-multi-platform-onslaught-leveraging-winrar-zero-day-and-linux-variant-of-ares-rat/"
+  },
+  {
+    "index": 1,
+    "prediction": "Stately Taurus",
+    "elapsed_sec": 28.6,
+    "status": "ok",
+    "ground_truth": "MUSTANG PANDA",
+    "url": "https://csirt-cti.net/2024/01/23/stately-taurus-targets-myanmar/"
+  },
+  {
+    "index": 2,
+    "prediction": "APT10",
+    "elapsed_sec": 29.3,
+    "status": "ok",
+    "ground_truth": "MUSTANG PANDA",
+    "url": "https://unit42.paloaltonetworks.com/stately-taurus-attacks-se-asian-government/"
+  },
+  {
+    "index": 3,
+    "prediction": "APT28",
+    "elapsed_sec": 62.5,
+    "status": "ok",
+    "ground_truth": "MUMMY SPIDER",
+    "url": "https://medium.com/@zyadlzyatsoc/comprehensive-analysis-of-emotet-malware-part-1-by-zyad-elzyat-35d5cf33a3c0"
+  },
+  {
+    "index": 4,
+    "prediction": "<threat_actor_name>APT30</threat_actor_name>",
+    "elapsed_sec": 31.3,
+    "status": "ok",
+    "ground_truth": "Dark Caracal",
+    "url": "https://www.fortinet.com/blog/threat-research/bandook-persistent-threat-that-keeps-evolving"
+  },
+  {
+    "index": 5,
+    "prediction": "Sharp Panda",
+    "elapsed_sec": 27.9,
+    "status": "ok",
+    "ground_truth": "APT19",
+    "url": "https://research.checkpoint.com/2024/sharp-dragon-expands-towards-africa-and-the-caribbean/"
+  },
+  {
+    "index": 6,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 38.5,
+    "status": "ok",
+    "ground_truth": "APT19",
+    "url": "https://www.microsoft.com/en-us/security/blog/2024/05/15/threat-actors-misusing-quick-assist-in-social-engineering-attacks-leading-to-ransomware/"
+  },
+  {
+    "index": 7,
+    "prediction": "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58",
+    "elapsed_sec": 29.4,
+    "status": "ok",
+    "ground_truth": "APT-C-36",
+    "url": "https://blogs.blackberry.com/en/2023/02/blind-eagle-apt-c-36-targets-colombia"
+  },
+  {
+    "index": 8,
+    "prediction": "APT-C-36",
+    "elapsed_sec": 30.6,
+    "status": "ok",
+    "ground_truth": "APT-C-36",
+    "url": "https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools/"
+  },
+  {
+    "index": 9,
+    "prediction": "APT28 (Fancy Bear)",
+    "elapsed_sec": 31.0,
+    "status": "ok",
+    "ground_truth": "Turla",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/turla-galaxy-opportunity/"
+  },
+  {
+    "index": 10,
+    "prediction": "Turla",
+    "elapsed_sec": 27.3,
+    "status": "ok",
+    "ground_truth": "Turla",
+    "url": "https://www.telsy.com/en/turla-venomous-bear-updates-its-arsenal-newpass-appears-on-the-apt-threat-scene/"
+  },
+  {
+    "index": 11,
+    "prediction": "APT28 (Fancy Bear)",
+    "elapsed_sec": 53.7,
+    "status": "ok",
+    "ground_truth": "APT28",
+    "url": "https://cert.gov.ua/article/6276894"
+  },
+  {
+    "index": 12,
+    "prediction": "APT28",
+    "elapsed_sec": 24.9,
+    "status": "ok",
+    "ground_truth": "APT28",
+    "url": "https://cert.gov.ua/article/4492467"
+  },
+  {
+    "index": 13,
+    "prediction": "In conclusion, understanding how threat actors operate helps us develop effective countermeasures tailored towards mitigating potential impacts arising from future incidents involving similar methodologies described herein earlier sections covering topics pertaining to reconnaissance efforts undertaken prior initiating actual intrusions followed immediately thereafter stages characterized by escalating levels intensity throughout duration entire engagement lifecycle spanning entirety period extending beyond mere momentary",
+    "elapsed_sec": 63.6,
+    "status": "ok",
+    "ground_truth": "UNC2452",
+    "url": "https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/"
+  },
+  {
+    "index": 14,
+    "prediction": "Kimsuky",
+    "elapsed_sec": 25.5,
+    "status": "ok",
+    "ground_truth": "UNC2452",
+    "url": "https://www.rapid7.com/blog/post/2024/05/10/ongoing-social-engineering-campaign-linked-to-black-basta-ransomware-operators/"
+  },
+  {
+    "index": 15,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 30.6,
+    "status": "ok",
+    "ground_truth": "CHRYSENE",
+    "url": "https://www.welivesecurity.com/en/eset-research/oilrigs-outer-space-juicy-mix-same-ol-rig-new-drill-pipes/"
+  },
+  {
+    "index": 16,
+    "prediction": "Turla Group",
+    "elapsed_sec": 30.4,
+    "status": "ok",
+    "ground_truth": "CHRYSENE",
+    "url": "https://www.trendmicro.com/en_us/research/23/b/new-apt34-malware-targets-the-middle-east.html"
+  },
+  {
+    "index": 17,
+    "prediction": "The identified threat actor based on the provided reference reports is **Deep Panda**.",
+    "elapsed_sec": 25.7,
+    "status": "ok",
+    "ground_truth": "APT41",
+    "url": "https://www.trendmicro.com/en_us/research/24/d/earth-freybug.html"
+  },
+  {
+    "index": 18,
+    "prediction": "threat actor groups.",
+    "elapsed_sec": 31.4,
+    "status": "ok",
+    "ground_truth": "lazarus",
+    "url": "https://blog.talosintelligence.com/lazarus_new_rats_dlang_and_telegram/"
+  },
+  {
+    "index": 19,
+    "prediction": "Lazarus Group/Hidden Cobra",
+    "elapsed_sec": 59.3,
+    "status": "ok",
+    "ground_truth": "Kimsuky",
+    "url": "https://symantec-enterprise-blogs.security.com/threat-intelligence/springtail-kimsuky-backdoor-espionage"
+  },
+  {
+    "index": 20,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 33.7,
+    "status": "ok",
+    "ground_truth": "Kimsuky",
+    "url": "https://www.securonix.com/blog/securonix-threat-research-security-advisory-new-deepgosu-attack-campaign/"
+  },
+  {
+    "index": 21,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 27.7,
+    "status": "ok",
+    "ground_truth": "APT36",
+    "url": "https://www.seqrite.com/blog/pakistani-apts-escalate-attacks-on-indian-gov-seqrite-labs-unveils-threats-and-connections/"
+  },
+  {
+    "index": 22,
+    "prediction": "throughout the analysis.",
+    "elapsed_sec": 34.7,
+    "status": "ok",
+    "ground_truth": "APT35",
+    "url": "https://www.microsoft.com/en-us/security/blog/2024/01/17/new-ttps-observed-in-mint-sandstorm-campaign-targeting-high-profile-individuals-at-universities-and-research-orgs/"
+  },
+  {
+    "index": 23,
+    "prediction": "KarMa",
+    "elapsed_sec": 36.4,
+    "status": "ok",
+    "ground_truth": "MuddyWater",
+    "url": "https://www.deepinstinct.com/blog/darkbeatc2-the-latest-muddywater-attack-framework"
+  },
+  {
+    "index": 24,
+    "prediction": "MuddyWater",
+    "elapsed_sec": 30.2,
+    "status": "ok",
+    "ground_truth": "MuddyWater",
+    "url": "https://symantec-enterprise-blogs.security.com/threat-intelligence/iran-apt-seedworm-africa-telecoms"
+  },
+  {
+    "index": 25,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 33.6,
+    "status": "ok",
+    "ground_truth": "CharmingCypress",
+    "url": "https://www.volexity.com/blog/2024/02/13/charmingcypress-innovating-persistence/"
+  },
+  {
+    "index": 26,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 32.4,
+    "status": "ok",
+    "ground_truth": "Mint Sandstorm",
+    "url": "https://www.microsoft.com/en-us/security/blog/2023/04/18/nation-state-threat-actor-mint-sandstorm-refines-tradecraft-to-attack-high-value-targets/"
+  },
+  {
+    "index": 27,
+    "prediction": "institutions.",
+    "elapsed_sec": 26.8,
+    "status": "ok",
+    "ground_truth": "APT31",
+    "url": "https://harfanglab.io/en/insidethelab/apt31-indictment-analysis/"
+  },
+  {
+    "index": 28,
+    "prediction": "Gamaredon Group",
+    "elapsed_sec": 25.6,
+    "status": "ok",
+    "ground_truth": "Gamaredon",
+    "url": "https://research.checkpoint.com/2023/malware-spotlight-into-the-trash-analyzing-litterdrifter/"
+  },
+  {
+    "index": 29,
+    "prediction": "Gamaredon",
+    "elapsed_sec": 25.9,
+    "status": "ok",
+    "ground_truth": "Gamaredon",
+    "url": "https://blogs.blackberry.com/en/2023/01/gamaredon-abuses-telegram-to-target-ukrainian-organizations"
+  },
+  {
+    "index": 30,
+    "prediction": "research.checkpoint.com/2023/pandas- with- a- soul- chinese- espionage- attacks- against- southeast- asian- government- entities ## Executive summary In 2021, Check Point Research published a report on a previously undisclosed toolset used by Sharp Panda, a long- running Chinese cyberespionage operation targeting Southeast Asian government entities. Since then, we have continued to track the use of these tools across several operations in multiple Southeast Asian countries, in particular nations with similar territorial claims or strategic infrastructure projects such as Vietnam, Thailand, and Indonesia. ## Key findings: - In late 2022, a campaign with an initial infection vector similar to previous Sharp Panda operations targeted a high-profile government entity in the region.- While Sharp Panda's previous campaigns delivered a custom and unique backdoor called VictoryDll, the payload in this specific attack is a new version of SoulSearcher loader, which eventually loads the Soul modular framework. Although samples of this framework from 2017-2021 were previously analyzed, this report is the most extensive look yet at the Soul malware family infection chain, including a full technical analysis of the latest version, compiled in late 2022.- Although the Soul malware framework was previously seen in an espionage campaign targeting the defense, healthcare, and ICT sectors in Southeast Asia, it was never previously attributed or connected to any known cluster of malicious activity. Although it is currently not clear if the Soul framework is utilized by a single threat actor, based on our research we can attribute the framework to an APT group with Chinese origins. - The connection between the tools and TTPs (Tactics, Techniques and Procedures) of [PLACEHOLDER] and the previously mentioned attacks in Southeast Asia might serve as yet another example of key characteristics inherent to Chinese-based APT operations, such as sharing custom tools between groups or task specialization, when one entity is responsible for the initial infection and another one performs the actual intelligence gathering. - Introduction - At the beginning of 2021, Check Point Research identified an ongoing surveillance operation we named [PLACEHOLDER] that was targeting Southeast Asian government entities. The attackers used spear-phishing emails to gain initial access to the targeted networks. These emails typically contained a Word document with government-themed lures that leveraged a remote template to download and run a malicious RTF document, weaponized with the infamous RoyalRoad kit. Once inside, the malware starts a chain of in-memory loaders, comprised of a custom DLL downloader we call 5.t Downloader and a second-stage loader responsible for the delivery of a final backdoor. The final payload observed in [PLACEHOLDER] campaigns at the time was VictoryDll, a custom and unique malware that enabled remote access and data collection from the infected device. We tracked several earlier versions of the VictoryDll backdoor back to at least 2017, with the whole operation remaining under the radar the entire time.   Further tracking of [PLACEHOLDER] tools revealed multiple campaigns that targeted entities in Southeast Asian countries, such as Vietnam, Indonesia, and Thailand. During this time, multiple minor changes were implemented in the 5.t Downloader itself, but in general, the initial part of the infection chain (the use of Word documents, RoyalRoad RTF and 5.t Downloader) remained the same. However, in early 2023, when investigating an attack against one of the government entities located in the targeted region, the payload received from the actor’s geo-fenced C&C server was different from the VictoryDll backdoor observed before. Further analysis revealed that this payload is a new version of SoulSearcher loader, which is responsible for downloading, decrypting, and loading in memory other modules of the Soul modular backdoor.     Figure 1 - The infection chain.  Figure 1 – The infection chain.  The use of the Soul malware framework was described by Symantec in relation to the unattributed espionage operation targeting defense, healthcare, and ICT sectors in Southeast Asia in 2020-2021. Following up on that report, Fortinet researchers discovered other samples from 2017-2021 and described the evolution of the framework. Soul was also seen in 2019 in attacks against Vietnamese targets. None of these public reports attributed the Soul framework to any specific country or known actor, although researchers noted the “competent adversarial tradecraft” which they believed indicated a “possibly state-sponsored” group.    In this report, we provide a detailed technical explanation of several malicious stages used in this infection chain and the latest changes implemented in the Soul framework. We also discuss the challenges in attributing these attacks.    Downloader  The downloader, which in this specific case was dropped by RoyalRoad RTF to the disk as res6.a, is executed by a scheduled task with rundll32.exe, StartA. Its functionality is consistent with previous research of [PLACEHOLDER] activity. Similar to previous [PLACEHOLDER] campaigns, the C&C servers of the attackers are geofenced and return payloads only to requests from the IP addresses of the countries where the targets are located.    In the latest campaign, the actors implemented some changes in the downloader’s communication with the C&C. Previously, the entire C&C communication was based on sending data encrypted using RC4 and encoded with base64, with an exception for the HTTP request for payload which contained the hostname in plain text in the URI: /[**hostname]**.html.    However, in the new samples, the payload request is issued to the same PHP path as all the previous requests, with the host specified in its parameter, both MD5-hashed and in clear-text: [host_name]*[host_name_md5], e.g. MyComputer*d2122d4f4cdf26faa1b2f73bda6030f4 and then encoded:    /[php_name].php?Data=[encoded<host_name_and_host_md5>]    It’s noteworthy that while different keys were used, the encoding method using RC4+",
+    "elapsed_sec": 56.7,
+    "status": "ok",
+    "ground_truth": "Sharp Panda",
+    "url": "https://research.checkpoint.com/2023/pandas-with-a-soul-chinese-espionage-attacks-against-southeast-asian-government-entities/"
+  },
+  {
+    "index": 31,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 29.5,
+    "status": "ok",
+    "ground_truth": "Bitter APT",
+    "url": "https://blog.talosintelligence.com/bitter-apt-adds-bangladesh-to-their/"
+  },
+  {
+    "index": 32,
+    "prediction": "Confucius APT",
+    "elapsed_sec": 29.9,
+    "status": "ok",
+    "ground_truth": "Confucius",
+    "url": "https://www.lookout.com/threat-intelligence/article/lookout-discovers-novel-confucius-apt-android-spyware-linked-to-india-pakistan-conflict"
+  },
+  {
+    "index": 33,
+    "prediction": "DustSquad",
+    "elapsed_sec": 53.1,
+    "status": "ok",
+    "ground_truth": "Dragonfly",
+    "url": "https://symantec-enterprise-blogs.security.com/threat-intelligence/dragonfly-energy-sector-cyber-attacks"
+  },
+  {
+    "index": 34,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 25.2,
+    "status": "ok",
+    "ground_truth": "Andariel",
+    "url": "https://asec.ahnlab.com/en/63192/"
+  },
+  {
+    "index": 35,
+    "prediction": "COLDRIER",
+    "elapsed_sec": 25.4,
+    "status": "ok",
+    "ground_truth": "COLDRIVER",
+    "url": "https://blog.google/threat-analysis-group/google-tag-coldriver-russian-phishing-malware/"
+  },
+  {
+    "index": 36,
+    "prediction": "(rejected by validation): [PLACEHOLDER]",
+    "elapsed_sec": 59.5,
+    "status": "ok",
+    "ground_truth": "Bahamut",
+    "url": "https://www.welivesecurity.com/2022/11/23/bahamut-cybermercenary-group-targets-android-users-fake-vpn-apps/"
+  },
+  {
+    "index": 37,
+    "prediction": "APT37 (Reaper)",
+    "elapsed_sec": 25.1,
+    "status": "ok",
+    "ground_truth": "APT37",
+    "url": "https://www.bleepingcomputer.com/news/security/apt37-hackers-deploy-new-fadestealer-eavesdropping-malware/"
+  },
+  {
+    "index": 38,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 31.5,
+    "status": "ok",
+    "ground_truth": "APT33",
+    "url": "https://www.uscloud.com/blog/hackers-target-government-defense-contractors-with-new-backdoor-malware/"
+  },
+  {
+    "index": 39,
+    "prediction": "Threat Actor Name",
+    "elapsed_sec": 53.2,
+    "status": "ok",
+    "ground_truth": "APT29",
+    "url": "https://www.mandiant.com/resources/blog/apt29-wineloader-german-political-parties"
+  },
+  {
+    "index": 40,
+    "prediction": "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46",
+    "elapsed_sec": 27.0,
+    "status": "ok",
+    "ground_truth": "APT29",
+    "url": "https://www.cyberark.com/resources/blog/apt29s-attack-on-microsoft-tracking-cozy-bears-footprints"
+  },
+  {
+    "index": 41,
+    "prediction": "APT28",
+    "elapsed_sec": 25.4,
+    "status": "ok",
+    "ground_truth": "APT29",
+    "url": "https://www.infosecurity-magazine.com/news/russias-apt29-embassies-ngrok/"
+  },
+  {
+    "index": 42,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 28.2,
+    "status": "ok",
+    "ground_truth": "Diamond Sleet",
+    "url": "https://www.microsoft.com/en-us/security/blog/2023/11/22/diamond-sleet-supply-chain-compromise-distributes-a-modified-cyberlink-installer/"
+  },
+  {
+    "index": 43,
+    "prediction": "Lazarus",
+    "elapsed_sec": 22.1,
+    "status": "ok",
+    "ground_truth": "Lazarus",
+    "url": "https://thehackernews.com/2024/04/north-koreas-lazarus-group-deploys-new.html"
+  },
+  {
+    "index": 44,
+    "prediction": "MuddyWater",
+    "elapsed_sec": 29.0,
+    "status": "ok",
+    "ground_truth": "Lazarus",
+    "url": "https://blog.talosintelligence.com/lazarus-collectionrat/"
+  },
+  {
+    "index": 45,
+    "prediction": "Bureau 121",
+    "elapsed_sec": 27.1,
+    "status": "ok",
+    "ground_truth": "Lazarus",
+    "url": "https://securityscorecard.com/research/lazarus-group-suspicious-traffic-involving-state-government-ip-addresses/"
+  },
+  {
+    "index": 46,
+    "prediction": "Threat Actor Name",
+    "elapsed_sec": 53.6,
+    "status": "ok",
+    "ground_truth": "Lazarus",
+    "url": "https://siliconangle.com/2023/08/29/north-korea-lazarus-group-beefs-malware-attacks/"
+  },
+  {
+    "index": 47,
+    "prediction": "[PLACEHOLDER]",
+    "elapsed_sec": 23.1,
+    "status": "ok",
+    "ground_truth": "OilRig",
+    "url": "https://www.darkreading.com/ics-ot-security/iran-oilrig-cyberattackers-target-israel-critical-infrastructure"
+  },
+  {
+    "index": 48,
+    "prediction": "Crambus",
+    "elapsed_sec": 22.8,
+    "status": "ok",
+    "ground_truth": "MuddyWater",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/iran-linked-muddywater-spies-middle-east-govt-eight-months"
+  },
+  {
+    "index": 49,
+    "prediction": "Turla",
+    "elapsed_sec": 24.2,
+    "status": "ok",
+    "ground_truth": "Turla",
+    "url": "https://cyware.com/resources/research-and-analysis/symphony-of-intrusion-turla-apts-orchestrated-attacks-across-borders-ddd5"
+  }
+]

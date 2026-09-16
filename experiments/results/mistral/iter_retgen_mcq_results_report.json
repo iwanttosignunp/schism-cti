@@ -1,0 +1,7 @@
+{
+  "method": "iter_retgen",
+  "accuracy": 45.36,
+  "correct": 1134,
+  "total": 2500,
+  "num_failed": 0
+}

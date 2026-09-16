@@ -1,0 +1,8 @@
+{
+  "task": "rcm",
+  "total": 1000,
+  "num_failed": 0,
+  "accuracy": 34.0,
+  "correct": 340,
+  "mode": "baseline"
+}

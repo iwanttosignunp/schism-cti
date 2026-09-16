@@ -1,0 +1,260 @@
+{
+  "method": "arbgraph",
+  "correct_accuracy": 22.0,
+  "plausible_accuracy": 26.0,
+  "total": 50,
+  "num_valid": 50,
+  "num_failed": 0,
+  "details": [
+    {
+      "gt": "SideCopy",
+      "pred": "APT36",
+      "result": "P"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "Stately Taurus",
+      "result": "C"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "APT10",
+      "result": "I"
+    },
+    {
+      "gt": "MUMMY SPIDER",
+      "pred": "Based on the provided evidence claims, it is not possible to definitively attribute the threat actor responsible for this incident using the given information. The TTPs mentioned in the threat report are commonly used by various Advanced Persistent Threat (APT) groups, making it difficult to pinpoint a specific group without more context or specific indicators of compromise (IOCs).",
+      "result": "I"
+    },
+    {
+      "gt": "Dark Caracal",
+      "pred": "APT30",
+      "result": "I"
+    },
+    {
+      "gt": "APT19",
+      "pred": "Sharp Panda",
+      "result": "C"
+    },
+    {
+      "gt": "APT19",
+      "pred": "FIN7 or APT33",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "Blind Eagle",
+      "result": "C"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "Blind Eagle (APT-C-36)",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Gamaredon APT",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Venomous Bear (aka Turla or Uroburos)",
+      "result": "I"
+    },
+    {
+      "gt": "APT28",
+      "pred": "APT28",
+      "result": "C"
+    },
+    {
+      "gt": "APT28",
+      "pred": "APT28 (Fancy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "APT29",
+      "result": "C"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "Kimsuky",
+      "result": "I"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "OilRig",
+      "result": "C"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "Turla APT Group",
+      "result": "I"
+    },
+    {
+      "gt": "APT41",
+      "pred": "Deep Panda",
+      "result": "I"
+    },
+    {
+      "gt": "lazarus",
+      "pred": "Iranian linked conglomerate MuddyWater",
+      "result": "I"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "DarkSeoul",
+      "result": "I"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "APT41",
+      "result": "I"
+    },
+    {
+      "gt": "APT36",
+      "pred": "Tick (Nian)",
+      "result": "I"
+    },
+    {
+      "gt": "APT35",
+      "pred": "Russian GRU",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "1-SOON (FishMonger)",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Seedworm (aka Muddywater)",
+      "result": "I"
+    },
+    {
+      "gt": "CharmingCypress",
+      "pred": "Gamaredon",
+      "result": "I"
+    },
+    {
+      "gt": "Mint Sandstorm",
+      "pred": "APT28",
+      "result": "I"
+    },
+    {
+      "gt": "APT31",
+      "pred": "Advanced Persistent Threat Group 4China",
+      "result": "I"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Gamaredon",
+      "result": "C"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Gamaredon APT",
+      "result": "I"
+    },
+    {
+      "gt": "Sharp Panda",
+      "pred": "Sharp Panda",
+      "result": "C"
+    },
+    {
+      "gt": "Bitter APT",
+      "pred": "Kimsuky",
+      "result": "P"
+    },
+    {
+      "gt": "Confucius",
+      "pred": "Confucius",
+      "result": "C"
+    },
+    {
+      "gt": "Dragonfly",
+      "pred": "DustSquad (Kaspersky)",
+      "result": "I"
+    },
+    {
+      "gt": "Andariel",
+      "pred": "RedEyes (APT37, ScarCrut)",
+      "result": "I"
+    },
+    {
+      "gt": "COLDRIVER",
+      "pred": "COLDRIER",
+      "result": "I"
+    },
+    {
+      "gt": "Bahamut",
+      "pred": "APT-C-23 (Arid Viper)",
+      "result": "I"
+    },
+    {
+      "gt": "APT37",
+      "pred": "APT37 (Reaper)",
+      "result": "I"
+    },
+    {
+      "gt": "APT33",
+      "pred": "Russian State Hackers",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "APT29 (also known as Nobelium)",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "Unknown Threat Actor Group",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "APT28",
+      "result": "C"
+    },
+    {
+      "gt": "Diamond Sleet",
+      "pred": "Flax Typhoon",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Lazarus / Hidden Cobra",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Iranian linked conglomerate MuddyWater",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "APT29",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "APT Group associated with [PLACEHOLDER]",
+      "result": "I"
+    },
+    {
+      "gt": "OilRig",
+      "pred": "OilRig",
+      "result": "C"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Waterbug (Turla)",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "TEMP.Veles (FireEye) / Tortoiseshell (Symantec)",
+      "result": "I"
+    }
+  ]
+}

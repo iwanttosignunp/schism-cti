@@ -1,0 +1,260 @@
+{
+  "method": "search_o1",
+  "correct_accuracy": 12.0,
+  "plausible_accuracy": 20.0,
+  "total": 50,
+  "num_valid": 50,
+  "num_failed": 0,
+  "details": [
+    {
+      "gt": "SideCopy",
+      "pred": "APT36 (Transparent Tribe)",
+      "result": "I"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "APT41 (Winnti Group)",
+      "result": "I"
+    },
+    {
+      "gt": "MUSTANG PANDA",
+      "pred": "APT41 (Winnti Group)",
+      "result": "I"
+    },
+    {
+      "gt": "MUMMY SPIDER",
+      "pred": "APT34 (OilRig)",
+      "result": "I"
+    },
+    {
+      "gt": "Dark Caracal",
+      "pred": "APT34 (OilRig)",
+      "result": "I"
+    },
+    {
+      "gt": "APT19",
+      "pred": "APT41 (Winnti Group)",
+      "result": "I"
+    },
+    {
+      "gt": "APT19",
+      "pred": "Finnish Cyber Criminal Group (FFCG)",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "Carbanak Group",
+      "result": "I"
+    },
+    {
+      "gt": "APT-C-36",
+      "pred": "EMPRYEET",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "APT29 (Cozy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "APT29 (Cozy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "APT28",
+      "pred": "APT29 (Cozy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "APT28",
+      "pred": "APT28 (Fancy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "APT29 (Cozy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "UNC2452",
+      "pred": "APT29 (Cozy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "APT34 (also known as OilRig)",
+      "result": "I"
+    },
+    {
+      "gt": "CHRYSENE",
+      "pred": "APT34 (also known as OilRig)",
+      "result": "I"
+    },
+    {
+      "gt": "APT41",
+      "pred": "APT32 (OceanLotus)",
+      "result": "I"
+    },
+    {
+      "gt": "lazarus",
+      "pred": "Onyx Sleet (Plutonium or Andariel)",
+      "result": "I"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "Lazarus Group",
+      "result": "P"
+    },
+    {
+      "gt": "Kimsuky",
+      "pred": "APT32 (OceanLotus)",
+      "result": "I"
+    },
+    {
+      "gt": "APT36",
+      "pred": "SideCopy",
+      "result": "P"
+    },
+    {
+      "gt": "APT35",
+      "pred": "APT35 (Charming Kitten)",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "APT34 (OilRig)",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "APT34 (also known as OilRig)",
+      "result": "I"
+    },
+    {
+      "gt": "CharmingCypress",
+      "pred": "APT34 (OilRig)",
+      "result": "I"
+    },
+    {
+      "gt": "Mint Sandstorm",
+      "pred": "APT35",
+      "result": "C"
+    },
+    {
+      "gt": "APT31",
+      "pred": "APT41 (also known as Winnti Group)",
+      "result": "I"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "APT28 (Fancy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "Gamaredon",
+      "pred": "Gamaredon",
+      "result": "C"
+    },
+    {
+      "gt": "Sharp Panda",
+      "pred": "APT30",
+      "result": "I"
+    },
+    {
+      "gt": "Bitter APT",
+      "pred": "APT33",
+      "result": "P"
+    },
+    {
+      "gt": "Confucius",
+      "pred": "APT-C-39 (also known as Carbon Group)",
+      "result": "I"
+    },
+    {
+      "gt": "Dragonfly",
+      "pred": "APT28 (Fancy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "Andariel",
+      "pred": "APT37",
+      "result": "P"
+    },
+    {
+      "gt": "COLDRIVER",
+      "pred": "APT28 (Fancy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "Bahamut",
+      "pred": "APT-C-23",
+      "result": "I"
+    },
+    {
+      "gt": "APT37",
+      "pred": "StarCruft (also known as Reaper, RedEyes)",
+      "result": "I"
+    },
+    {
+      "gt": "APT33",
+      "pred": "Iranian Cyber-Espionage Group (Peach Sandstorm, HOLMIUM, or Refined Kitten)",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "APT29 (Cozy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "Cozy Bear (APT29, The Dukes, CozyDuke, Midnight Blizzard, Dark Halo, NOBELIUM, UNC2452)",
+      "result": "I"
+    },
+    {
+      "gt": "APT29",
+      "pred": "APT29 (Cozy Bear)",
+      "result": "I"
+    },
+    {
+      "gt": "Diamond Sleet",
+      "pred": "APT37 (also known as Reaper)",
+      "result": "I"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Lazarus Group",
+      "result": "C"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Lazarus Group",
+      "result": "C"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "Lazarus Group",
+      "result": "C"
+    },
+    {
+      "gt": "Lazarus",
+      "pred": "APT34 (also known as OilRig)",
+      "result": "I"
+    },
+    {
+      "gt": "OilRig",
+      "pred": "APT34 (OilRig)",
+      "result": "I"
+    },
+    {
+      "gt": "MuddyWater",
+      "pred": "Crambus (APT34)",
+      "result": "I"
+    },
+    {
+      "gt": "Turla",
+      "pred": "Turla",
+      "result": "C"
+    }
+  ]
+}

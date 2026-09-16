@@ -1,0 +1,7 @@
+{
+  "method": "arbgraph",
+  "accuracy": 47.72,
+  "correct": 1193,
+  "total": 2500,
+  "num_failed": 0
+}
