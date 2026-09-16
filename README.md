@@ -75,6 +75,4 @@ Baselines are run through `experiments/run_taa_baselines.py` and
 per-sample outputs (`*_results.json`) and the aggregated metrics
 (`*_results_report.json`) used in the paper. Backbones shipped here:
 `qwen3-30b-a3b` (Qwen3-30B-A3B), `glm-9b` (GLM-4-9B), and `mistral`
-(Mistral-7B). Results for the fourth backbone, Qwen3-8B-Instruct, and a few
-individual baseline runs were produced on another machine and are not
-included.
+(Mistral-7B).
