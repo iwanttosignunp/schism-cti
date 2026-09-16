@@ -44,8 +44,8 @@ signed evidence graph.
 │                         # in each directory)
 ├── experiments/          # run scripts for the 4 CTIBench tasks and baselines
 │   └── results/          # raw + report JSON of the main experiments on
-│                         # four backbone LLMs (Qwen3-30B-A3B, GLM-9B,
-│                         # Mistral, Qwen3-8B)
+│                         # backbone LLMs (GLM-4-9B, Qwen3-30B-A3B,
+│                         # Mistral-7B)
 └── data/                 # CTIBench task sets and the CTI report corpus
 ```
 
@@ -74,4 +74,7 @@ Baselines are run through `experiments/run_taa_baselines.py` and
 `experiments/results/<backbone>/` contains, per method and per task, the raw
 per-sample outputs (`*_results.json`) and the aggregated metrics
 (`*_results_report.json`) used in the paper. Backbones shipped here:
-`qwen3-30b-a3b`, `glm-9b`, `mistral`, `qwen3-8b`.
+`qwen3-30b-a3b` (Qwen3-30B-A3B), `glm-9b` (GLM-4-9B), and `mistral`
+(Mistral-7B). Results for the fourth backbone, Qwen3-8B-Instruct, and a few
+individual baseline runs were produced on another machine and are not
+included.
